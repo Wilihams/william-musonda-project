@@ -14,18 +14,18 @@
     <p id="description">We are all trying to complete a survey form</p>
     <form id="survey-form">
       <div>
-        <label for="name">Enter your name: </label>
-        <input type="text" id="name" name="name" required> 
+        <label id="name-label" for="name">Name: </label>
+        <input type="text" id="name" name="name" placeholder="Enter name" required> 
       </div>
     
       <div>
-        <label for="email">Enter your email: </label>
-        <input type="email" id="email" required> 
+        <label id="email-label" for="email">Email: </label>
+        <input type="email" id="email" placeholder="Enter email" required> 
       </div>
 
       <div>
-        <label for="number">Enter your mobile number: </label>
-        <input type="number" id="number" required> 
+        <label id="number-label" for="number">Mobile number: </label>
+        <input type="number" id="number" min="14" max="24" placeholder="Enter Number" required> 
       </div>
     </form>
 
