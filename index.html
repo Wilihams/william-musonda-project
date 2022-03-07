@@ -28,15 +28,37 @@
         <input type="number" id="number" min="14" max="24" placeholder="Enter Number" required> 
       </div>
 
-      <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
+      <div>
+        <select name=”Survey” id="dropdown">
+          <option value=”first”>First</option>
+          <option value=”second”>Second </option>
+          <option value=”third”>Third </option>
+          </select>
       </div>
       
+     <div>
+    
+      <div class="option-group" for="group-1">
+        <div class="option-item">
+          <input class="form-check-input" type="radio" name="group-1" value="radio-1">
+          <label class="form-check-label" for="flexRadioDefault1">radio-1</label>
+        </div>
+        <div class="option-item">
+          <input class="form-check-input" type="radio" name="group-1">
+          <label class="form-check-label" for="flexRadioDefault1" value="radio-1">radio-2</label>
+        </div>
+        <div class="option-item">
+          <input class="form-check-input" type="radio" name="group-2">
+          <label class="form-check-label" for="flexRadioDefault1" value="radio-1'">radio-1'</label>
+        </div>
+        <div class="option-item">
+          <input class="form-check-input" type="radio" name="group-2">
+          <label class="form-check-label" for="flexRadioDefault1" value="radio-2'">radio-2'</label>
+        </div>
+      </div>
+     
+        
+     
     </form>
 
     <script  src="js/index.js"></script>
